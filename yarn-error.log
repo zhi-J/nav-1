@@ -1,0 +1,44 @@
+Arguments: 
+  D:\Dsoftware\nodejs\node.exe D:\Dsoftware\yarn\bin\yarn.js build
+
+PATH: 
+  D:\Dsoftware\cmder\vendor\git-for-windows\mingw64\bin;D:\Dsoftware\cmder\vendor\git-for-windows\usr\bin;C:\Users\JJL\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\JJL\jdk8\bin;C:\JJL\apache-maven-3.5.2\bin;C:\JJL\tomcat9\bin;C:\JJL\tomcat9\lib;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files\TortoiseSVN\bin;D:\sqlServer2012\Program Files(x86)\110\Tools\Binn;D:\sqlServer2012\Program Files(x86)\110\DTS\Binn;D:\sqlServer2012\Program Files(x86)\110\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Dsoftware\nodejs;D:\Dsoftware\yarn\bin;D:\JJL\anaconda;D:\JJL\anaconda\Library\mingw-w64\bin;D:\JJL\anaconda\Library\usr\bin;D:\JJL\anaconda\Library\bin;D:\JJL\anaconda\Scripts;C:\Users\JJL\AppData\Local\Programs\Python\Python38\Scripts;C:\Users\JJL\AppData\Local\Programs\Python\Python38;C:\Users\JJL\AppData\Local\Microsoft\WindowsApps;C:\Users\JJL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\JJL\AppData\Roaming\npm;C:\Users\JJL\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\JJL\研究生阶段\前端学习\project\nav\package.json: Unexpected token { in JSON at position 110
+      at JSON.parse (<anonymous>)
+      at D:\Dsoftware\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Dsoftware\yarn\lib\cli.js:310:30)
+      at D:\Dsoftware\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "scripts": {
+      "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+    }
+  }
+  
+  {
+    "name": "nav",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:zhi-J/nav-1.git",
+    "author": "zhi <1106010597@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
